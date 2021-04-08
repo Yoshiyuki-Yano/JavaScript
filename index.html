@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Practice</title>
+  
+</head>
+<body>
+  <h1>問合せフォーム</h1>
+  <p>以下は全て必須項目です。</p>
+  <form>
+    <label>
+      お名前<br>
+      <input type="text" name="name">
+    </label>
+    <br>
+    <label>
+      お問い合わせ内容<br>
+      <textarea></textarea>
+    </label>
+    <br>
+    好きな色
+    <br>
+    <label>
+      <input type="radio" name="color">
+      赤
+    </label>
+    <label>
+      <input type="radio" name="color">
+      青
+    </label>
+    <label>
+      <input type="radio" name="color">
+      黄
+    </label>
+    <br>
+    話せる言葉
+    <br>
+    <label>
+      <input type="checkbox" name="lunguage">
+      日本語
+    </label>
+    <label>
+      <input type="checkbox" name="lunguage">
+      英語
+    </label>
+    <label>
+      <input type="checkbox" name="lunguage">
+      フランス語
+    </label>
+    <br>
+    好きなプログラミング言語
+    <select name="programming" size="1">
+      <option value="">好きなプログラミング言語</option>
+      <option value="Javascript">JavaScript</option>
+      <option value="Java">Java</option>
+      <option value="Ruby">Ruby</option>
+      <option value="Python">Python</option>
+      <option value="PHP">PHP</option>
+      <option value="Go">Go</option>
+    </select>
+    <br>
+    <button class="btn">送信する</button>
+  </form>
+  <script src="js/form.js"></script>
+</body>
+</html>
